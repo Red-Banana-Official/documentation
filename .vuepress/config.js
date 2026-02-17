@@ -43,6 +43,10 @@ module.exports = {
         logo: '/logos/pterry.svg',
         nav: [
             {
+                text: 'Eggs',
+                link: 'https://eggs.pterodactyl.io/',
+            },
+            {
                 text: 'Documentation',
                 link: '/project/introduction.md',
             },
@@ -83,7 +87,6 @@ module.exports = {
                     children: [
                         '/community/installation-guides/wings/centos7.md',
                         '/community/installation-guides/wings/centos8.md',
-                        '/community/installation-guides/wings/debian.md',
                     ]
                 },
                 {
@@ -140,7 +143,7 @@ module.exports = {
                     currentVersion: '1.0',
                     versions: [
                         {
-                            title: '1.11',
+                            title: '1.12',
                             name: '1.0',
                             status: 'stable',
                             children: [
@@ -161,7 +164,7 @@ module.exports = {
                     currentVersion: '1.0',
                     versions: [
                         {
-                            title: '1.11',
+                            title: '1.12',
                             name: '1.0',
                             status: 'stable',
                             children: [

@@ -11,6 +11,7 @@ table below to check what version you need for your version of Pterodactyl.
 | 1.11.0 - 1.11.3 | 8.0, 8.1      |
 | 1.11.4+         | 8.1, 8.2, 8.3 |
 | 1.11.10+        | 8.2, 8.3      |
+| 1.12.0+         | 8.2, **8.3**      |
 
 ## Install PHP
 
@@ -21,7 +22,7 @@ may have slightly different requirements for how this command is formatted.
 # Add additional repository for PHP
 add-apt-repository -y ppa:ondrej/php
 apt -y update
-apt -y install php8.3 php8.3-{cli,gd,mysql,pdo,mbstring,tokenizer,bcmath,xml,fpm,curl,zip}
+apt -y install php8.3 php8.3-{cli,gd,mysql,common,mbstring,tokenizer,bcmath,xml,fpm,curl,zip}
 ```
 
 ## Update Composer

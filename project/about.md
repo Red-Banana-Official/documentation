@@ -6,10 +6,7 @@
 
 | Name                                     | Discord Name    | Primary Role                        |
 | ---------------------------------------- | --------------- | ----------------------------------- |
-| [Dane Everitt](https://daneeveritt.com/) | `.tacticalfish` | Founder & Former Project Maintainer |
-| [Matthew Penner](https://matthewp.io/)   | `matthewp`      | Project Maintainer                  |
-| Stepan Fedotov                           | `trixter`       | WHMCS Module Maintainer             |
-| Michael Parker                           | `parkervcp`     | Egg Developer, Docker Integration   |
+| [Dane Everitt](https://daneeveritt.com/) | `deveritt` | Founder & Project Maintainer |
 
 Members of the project team have a red username in our Discord server.
 
@@ -20,7 +17,7 @@ members can be found in our Discord server and are distinguished with a yellow u
 
 ## Sponsors
 
-The following companies help fund Pterodactyl's development. [Interested in becoming a sponsor?](https://github.com/sponsors/matthewpi)
+The following companies help fund Pterodactyl's development. [Interested in becoming a sponsor?](https://github.com/sponsors/pterodactyl)
 
 | Company                                                      | About                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,10 +37,13 @@ Code released under the [MIT License](https://github.com/pterodactyl/panel/blob/
 
 ## Release Signing
 
-Previously, releases were signed by a GPG key.  All recent releases are now signed using an SSH signing key.
+All releases for both the Panel and Wings, including and after v1.12.0, are signed using the following new SSH signing key:
 
-This key is used to sign release tags and commits created by Matthew Penner.  This key was first used to sign
-`v1.10.2` for the Panel and `v1.7.1` for Wings and has been used ever since.
+```text
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID4jRyjZHLujJfeQPrEx3YY+0QUmdmfK9GF8rHe7rWSn
+```
+
+Previously, releases were signed using the following SSH signing key:
 
 ```text
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKL873MsP1OFfffNC8n9WcVuOXOSW65/q26MIzib0K9k
